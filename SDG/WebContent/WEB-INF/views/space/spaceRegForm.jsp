@@ -5,6 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
+<script src="<%=request.getContextPath()%>/js/jquery-3.4.1.js"></script>
 </head>
 <body>
 	
@@ -131,13 +132,21 @@
 		<br />
 		
 		<label for="spcDetHoliday">공휴일 휴무 여부</label>
+<<<<<<< HEAD
+		<input type="checkbox" name="spcDetHoliday" id="spcDetHoliday" value=""/>
+=======
 		<input type="checkbox" name="spcDetHoliday" value="0"/>
+>>>>>>> branch 'master' of https://github.com/ISeeTheFuture/SDG.git
 		
+<<<<<<< HEAD
+
+=======
 		
 		<br />
 		<br />
 		
 		<button>등록</button>
+>>>>>>> branch 'master' of https://github.com/ISeeTheFuture/SDG.git
 		
 	</form>
 	
@@ -151,4 +160,17 @@ $(document).ready(function(){
 });
 </script>
 </body>
+<script>
+	
+$(document).ready(function(){
+    $("#spcDetHoliday").change(function(){
+        if($("#spcDetHoliday").is(":checked")){
+    		$("#spcDateHoliday").val(1);
+        }else{
+    		$("#spcDateHoliday").val(0);
+        }
+    });
+});
+
+</script>
 </html>
