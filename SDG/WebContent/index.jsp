@@ -55,6 +55,8 @@
 	
 	지줂형.......너무......멋있네요..ㅅ..ㅂ...
 	
+	
+	
 			
 		<div class="login-container">
 			<%  if(memberLoggedIn != null){ %>
@@ -111,8 +113,6 @@
 			<%  }%>
 	
 			</div>
-	
-	
 	
 	
 				<ul class="main-nav">
