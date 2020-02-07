@@ -139,7 +139,6 @@
 		<br />
 		
 		<button>등록</button>
->>>>>>> branch 'master' of https://github.com/ISeeTheFuture/SDG.git
 		
 	</form>
 	
