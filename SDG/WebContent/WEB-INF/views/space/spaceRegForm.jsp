@@ -132,6 +132,7 @@
 		<br />
 		
 		<label for="spcDetHoliday">공휴일 휴무 여부</label>
+<<<<<<< HEAD
 
 		<input type="checkbox" name="spcDetHoliday" id="spcDetHoliday" value="0"/>
 
@@ -144,4 +145,47 @@
 	
 </body>
 
+=======
+<<<<<<< HEAD
+		<input type="checkbox" name="spcDetHoliday" id="spcDetHoliday" value=""/>
+=======
+		<input type="checkbox" name="spcDetHoliday" value="0"/>
+>>>>>>> branch 'master' of https://github.com/ISeeTheFuture/SDG.git
+		
+<<<<<<< HEAD
+
+=======
+		
+		<br />
+		<br />
+		
+		<button>등록</button>
+>>>>>>> branch 'master' of https://github.com/ISeeTheFuture/SDG.git
+		
+	</form>
+	
+<script>
+$(document).ready(function(){
+    $("#spcDetHoliday").change(function(){
+        if($("#spcDetHoliday").is(":checked")){
+    		$("#spcDateHoliday").val("1");
+        }
+    });
+});
+</script>
+</body>
+<script>
+	
+$(document).ready(function(){
+    $("#spcDetHoliday").change(function(){
+        if($("#spcDetHoliday").is(":checked")){
+    		$("#spcDateHoliday").val(1);
+        }else{
+    		$("#spcDateHoliday").val(0);
+        }
+    });
+});
+
+</script>
+>>>>>>> branch 'master' of https://github.com/ISeeTheFuture/SDG.git
 </html>
